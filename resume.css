@@ -3,33 +3,14 @@
   font-weight: 500;
 }
 
-.msg {
-  padding: 10px;
-  background: #222;
-  position: relative;
-}
-.msg h1 {
-  color: #fff;
-}
-.msg a {
-  margin-left: 20px;
-  background: #408814;
-  color: white;
-  padding: 4px 8px;
-  text-decoration: none;
-}
-.msg a:hover {
-  background: #266400;
-}
-
 /* //-- yui-grids style overrides -- */
 body {
   font-family: Georgia;
   color: #444;
 }
 #inner {
-  padding: 10px 10px;
-  margin: 30px auto;
+  padding: 0 10px;
+  margin: 5px auto;
   background: #f5f5f5;
   border: solid #666;
   border-width: 8px 0 2px 0;
@@ -38,6 +19,7 @@ body {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #ccc;
+  text-align: justify;
 }
 
 /* //-- header, body, footer -- */
@@ -69,16 +51,18 @@ body {
 
 /* //-- core typography and style -- */
 #hd h1 {
-  font-size: 48px;
+  font-size: 44px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 h2 {
-  font-size: 152%;
+  font-size: 124%;
+  font-weight: bold;
+  padding: 2.5px 0;
 }
 h3,
 h4 {
-  font-size: 122%;
+  font-size: 95%;
 }
 h1,
 h2,
@@ -86,11 +70,18 @@ h3,
 h4 {
   color: #333;
 }
-p {
+p,
+li {
   font-size: 100%;
-  line-height: 18px;
+  line-height: 15px;
   padding-right: 3em;
 }
+
+.col li {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
 a {
   color: #990003;
 }
@@ -101,13 +92,13 @@ strong {
   font-weight: bold;
 }
 li {
-  line-height: 24px;
+  line-height: 18px;
   border-bottom: 1px solid #ccc;
 }
 p.enlarge {
-  font-size: 120%;
+  font-size: 100%;
   padding-right: 2.5em;
-  line-height: 24px;
+  line-height: 18px;
   text-align: justify;
 }
 p.enlarge span {
@@ -122,16 +113,17 @@ p.enlarge span {
 
 /* //-- section styles -- */
 
-a#pdf {
-  display: block;
+button#pdf {
+  width: 100%;
   background: #666;
   color: white;
   padding: 6px 50px 6px 12px;
   margin-bottom: 6px;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
-a#pdf:hover {
+button#pdf:hover {
   background: #222;
 }
 
@@ -156,36 +148,7 @@ a#pdf:hover {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.skills-list ul {
-  margin: 0;
-}
-.skills-list li {
-  margin: 3px 0;
-  padding: 3px 0;
-}
-.skills-list li span {
-  font-size: 152%;
-  display: block;
-  margin-bottom: -2px;
-  padding: 0;
-}
-.talent {
-  width: 25%;
-  float: left;
-}
-.talent h2 {
-  margin-bottom: 6px;
-}
 
-#srt-ttab {
-  margin-bottom: 100px;
-  text-align: center;
-}
-#srt-ttab img.last {
-  margin-top: 20px;
-}
-
-/* --// override to force 1/8th width grids -- */
 .yui-gf div.first {
   width: 12.3%;
 }
@@ -193,7 +156,6 @@ a#pdf:hover {
 .edu {
   position: relative;
   width: 80%;
-  margin-bottom: 1em;
 }
 
 .edu h4 {
@@ -206,19 +168,29 @@ a#pdf:hover {
 .yui-u:not(.first) h4 {
   word-wrap: break-word;
   word-break: keep-all;
-  max-width: 75%;
 }
 
 .contact-info {
   margin-top: 15px;
+  text-align: end;
 }
 body div.yui-gf div.yui-u {
-  width: 83%;
+  width: 87%;
 }
 body div.yui-gf div.yui-u.first {
-  width: 17%;
+  width: 13%;
 }
 
 .yui-t7 #yui-main .yui-b {
   margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.yui-t7 {
+  width: 73.076em;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 13% 2.5fr 1fr;
 }
