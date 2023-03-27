@@ -1,0 +1,286 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  padding: 10px;
+  background: #00abef4f;
+  text-align: left;
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga" off;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  border: #231f20 solid 0.5px;
+  border-radius: 5px;
+  background-color: #00adef;
+  box-shadow: 0 0 1px 1px #00678fb4;
+}
+a:hover {
+  transition: 0.5s;
+  box-shadow: none;
+}
+.document {
+  margin: 20px auto;
+  border-width: 0.5px;
+  border-color: #00adef;
+  border-style: double;
+  border-radius: 0 5px;
+  box-shadow: 0px 0px 2px 2px #01374d85;
+  background-color: rgba(253, 243, 229, 0.856);
+}
+
+.skn-cnt1 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.skn-cnt1 ul,
+.skn-cnt1 li {
+  list-style-type: disc;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+.skn-cnt1 ul li {
+  margin: 0 0 0 13px;
+}
+
+.skn-cnt1 {
+  word-wrap: break-word;
+  color: #404041;
+}
+.skn-cnt1 .flt-right {
+  float: right;
+}
+.skn-cnt1 .lorcase {
+  text-transform: lowercase;
+}
+.skn-cnt1 .grayItl {
+  font-style: italic;
+  color: rgb(144, 143, 155);
+}
+.skn-cnt1 .companyname,
+.skn-cnt1 .degree,
+.skn-cnt1 .smry,
+.skn-cnt1 .skils,
+.skn-cnt1 .txt-bold {
+  font-weight: bold;
+}
+.skn-cnt1 .companyname,
+.skn-cnt1 .degree {
+  text-transform: uppercase;
+}
+.skn-cnt1 .companyname {
+  color: #404041;
+}
+.skn-cnt1 .email {
+  color: #00adef;
+  text-transform: lowercase;
+}
+.skn-cnt1 .paddedline {
+  display: block;
+}
+.skn-cnt1 .logo,
+.skn-cnt1 .nodisplay,
+.skn-cnt1 .displayNoneThisField {
+  display: none;
+}
+
+.skn-cnt1 .name {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 17px;
+  padding: 0;
+  text-transform: uppercase;
+  border-top: 6px solid #58585b;
+  padding: 18px 0 0 0;
+  color: #404041;
+}
+
+.skn-cnt1 .paragraph {
+  position: relative;
+}
+.skn-cnt1 .heading {
+  clear: both;
+  color: #231f20;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+.skn-cnt1 .address {
+  position: relative;
+  font-size: 0.917em;
+  line-height: 1.25em;
+  color: #808284;
+}
+.skn-cnt1 .address {
+  text-transform: uppercase;
+}
+.skn-cnt1 .table_wrapper {
+  width: 100%;
+  margin-top: 0;
+}
+.skn-cnt1 table.twocol td {
+  width: 50%;
+  border: none;
+}
+
+.skn-cnt1 td.twocol_2 {
+  border-left: 1px solid #fff;
+}
+
+.skn-cnt1 .zipsuffix {
+  display: inline;
+}
+
+.skn-cnt1,
+.skn-cnt1 table {
+  line-height: 21px;
+}
+.skn-cnt1.pagesize {
+  width: 640px;
+}
+.skn-cnt1.fontsize {
+  font-size: 14px;
+}
+.skn-cnt1.fontface {
+  font-family: Palatino Linotype;
+}
+.skn-cnt1.vmargins {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.skn-cnt1.hmargins {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.skn-cnt1 .section {
+  margin-top: 7px;
+}
+.skn-cnt1 .SECTION_CNTC {
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #b2b0bf;
+}
+.skn-cnt1 .SECTION_CNTC + .section {
+  margin-top: 0px !important;
+}
+.skn-cnt1 .heading {
+  margin-bottom: 3px;
+}
+.skn-cnt1 .paragraph {
+  margin-top: 7px;
+}
+.skn-cnt1 .firstsection,
+.skn-cnt1 .firstparagraph {
+  margin-top: 0 !important;
+}
+.skn-cnt1 .firstsection {
+  border: none;
+}
+.skn-cnt1 .singlecolumn,
+.skn-cnt1 .maincolumn {
+  margin-left: 0px;
+}
+.skn-cnt1 .sectiontitle {
+  font-size: 18px;
+  line-height: 32px;
+}
+.skn-cnt1 .name {
+  font-size: 27px;
+  line-height: 42px;
+  border-color: #404041;
+}
+.skn-cnt1 .name,
+.skn-cnt1 .heading,
+.skn-cnt1 .companyname {
+  color: #404041;
+}
+.skn-cnt1 .address {
+  font-size: 12px;
+  line-height: 28px;
+}
+.skn-cnt1 .profTitle {
+  font-size: 18px;
+  line-height: 34px;
+}
+.skn-cnt1 .smry {
+  font-size: 15px;
+}
+.skn-cnt1 table.skills td {
+  padding-top: 3px;
+}

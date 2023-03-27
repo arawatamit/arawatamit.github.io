@@ -1,310 +1,436 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Amit Rawat | amitrawat@smartfolio.me</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="reset-fonts-grids.css"
-      media="all"
-    />
-    <link rel="stylesheet" type="text/css" href="resume.css" media="all" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="All.css" />
+    <title>Document</title>
   </head>
   <body>
-    <div class="yui-t7">
-      <h3><button id="pdf" href="#">Download PDF</button></h3>
+    <div>
+      <a href="./Resume.pdf" download="Resume_AmitRawat">Download Resume</a>
     </div>
-    <div id="doc2" class="yui-t7">
-      <div id="inner">
-        <div id="hd">
-          <div class="yui-gc">
-            <div class="yui-u first">
-              <h1>Amit Rawat</h1>
-            </div>
-
-            <div class="yui-u">
-              <div class="contact-info">
-                <h3>
-                  <a href="mailto:amitrawat@smartfolio.me"
-                    >amitrawat@smartfolio.me</a
-                  >
-                </h3>
-                <h3>(226)-975-4370</h3>
+    <div
+      class="document doc-root fontsize fontface vmargins hmargins pagesize skn-cnt1 CNT1 MPR"
+    >
+      <div class="name-contact">
+        <div style="right: -67px"></div>
+        <div class="section">
+          <div>
+            <div>
+              <div>
+                <div class="paragraph firstparagraph">
+                  <div>
+                    <div class="name">
+                      <span>Amit</span><span> </span><span>Rawat</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!--// .contact-info -->
             </div>
           </div>
-          <!--// .yui-gc -->
         </div>
-        <!--// hd -->
-
-        <div id="bd">
-          <div id="yui-main">
-            <div class="yui-b">
-              <div class="yui-gf">
-                <div class="yui-u first">
-                  <h2>Objective</h2>
-                </div>
-                <div class="yui-u">
-                  <p class="enlarge">
-                    As a detail-oriented problem solver, I am seeking a cloud
-                    position where I can utilize my skills in cloud automation,
-                    infrastructure as code, and data mining to provide
-                    innovative solutions and drive business growth.
-                  </p>
-                </div>
-              </div>
-              <!--// .yui-gf -->
-
-              <div class="yui-gf">
-                <div class="yui-u first">
-                  <h2>Education</h2>
-                </div>
-                <div class="edu yui-u">
-                  <h2>University of Windsor</h2>
-                  <h3>Windsor, ON</h3>
-                  <h3>
-                    Master of Engineering - Electrical and Computer Engineering
-                  </h3>
-                  <h4>2021-2022</h4>
-                </div>
-                <div class="edu yui-u last">
-                  <h2>Gujarat Technological University</h2>
-                  <h3>Ahmedabad, India</h3>
-                  <h3>Bachelor of Engineering - Computer Engineering</h3>
-                  <h4>2016-2020</h4>
-                </div>
-              </div>
-              <!--// .yui-gf -->
-
-              <div class="yui-gf skills">
-                <div class="yui-u first">
-                  <h2>Skills</h2>
-                </div>
-                <div class="yui-u col">
-                  <h2>Technical</h2>
-                  <ul>
-                    <li>
-                      <span> Cloud Computing Platforms: </span>
-                      <span> Amazon Web Services (AWS) </span>
-                    </li>
-                    <li>
-                      <span>Infrastructure as Code (IaC) Tools:</span>
-                      <span> AWS CloudFormation</span>
-                    </li>
-                    <li>
-                      <span>Programming Languages:</span>
-                      <span> Python, Java, C++, JavaScript</span>
-                    </li>
-                    <li>
-                      <span>Deep Learning Frameworks: </span
-                      ><span>PyTorch</span>
-                    </li>
-                    <li>
-                      <span>Web Development: </span
-                      ><span>HTML, CSS, PHP, JavaScript</span>
-                    </li>
-                    <li>
-                      <span>Database Management Systems:</span>
-                      <span>MySQL</span>
-                    </li>
-                    <li>
-                      <span>Data Analysis:</span>
-                      <span>NumPy, Pandas</span>
-                    </li>
-                    <li class="last">
-                      <span>Operating Systems:</span>
-                      <span>Linux, Windows</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="yui-u">
-                  <h2>Personal attributes</h2>
-                  <ul>
-                    <li>
-                      Strong problem-solving skills and ability to work in a
-                      team environment
-                    </li>
-                    <li>Good communication and interpersonal skills</li>
-                    <li class="last">
-                      Highly motivated and willing to learn new technologies
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!--// .yui-gf -->
-
-              <div class="yui-gf">
-                <div class="yui-u first">
-                  <h2>Projects</h2>
-                </div>
-                <!--// .yui-u -->
-
-                <div class="yui-u">
-                  <div class="projects last">
-                    <h2>Full-Stack Food Ordering System</h2>
-                    <ul>
-                      <li>
-                        Developed a full-stack solution using PHP, MySQL, HTML,
-                        JavaScript, and CSS to improve the food ordering process
-                        in workplaces and universities.
-                      </li>
-                      <li>
-                        Used PHP and MySQL to create a caching mechanism to
-                        optimize the system and reduce load on the server.
-                        Ensured that the database was normalized to prevent data
-                        redundancy and improve data integrity.
-                      </li>
-                      <li class="last">
-                        Designed a user-friendly interface to let easily browse
-                        the menu and place orders. Integrated a payment gateway
-                        for seamless online transactions.
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="projects last">
-                    <h2>University Forum Website</h2>
-                    <ul>
-                      <li>
-                        Developed a full-stack project using PHP, MySQL, HTML,
-                        JavaScript, and CSS to provide a forum for university
-                        students and staff.
-                      </li>
-                      <li>
-                        Used PHP and MySQL to implement pagination to improve
-                        performance and reduce server load. Ensured that the
-                        database was normalized to prevent data redundancy and
-                        improve data integrity.
-                      </li>
-                      <li class="last">
-                        Used HTML, CSS, and JavaScript to design a user-friendly
-                        interface that allowed users to easily engage in
-                        discussions, share ideas, and exchange information.
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="projects last" style="break-after: page">
-                    <h2>Image Restoration using Deep Learning</h2>
-                    <ul>
-                      <li>
-                        Developed a deep learning project to produce
-                        high-quality images using neural networks to apply
-                        various image restoration techniques.
-                      </li>
-                      <li>
-                        Used PyTorch to train neural network models for various
-                        image restoration tasks. Used Pillow (PIL) Library to
-                        process images and NumPy, Pandas to handle image data.
-                      </li>
-                      <li>
-                        Created a Flask app that used the previously trained
-                        models to process images and produce the result. The
-                        Flask app was wrapped in UWSGI which connected to NGINX.
-                      </li>
-                      <li class="last">
-                        Used JavaScript, HTML, and CSS to provide input images
-                        to be uploaded to the server and display the output
-                        images served by the server. Implemented GPU
-                        acceleration to speed up the processing of large images.
-                        Ensured that the Flask app was optimized for high
-                        concurrency to handle multiple requests simultaneously.
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="projects last">
-                    <h2>AWS Infrastructure Automation</h2>
-                    <ul>
-                      <li>
-                        Participated in a hackathon and automated the creation
-                        of IAM, S3, VPC, Subnet, ELB, EC2 instances, Scheduled
-                        Shutdown, backup, and API Gateway on AWS cloud platform
-                        using IaaC tool CloudFormation engine.
-                      </li>
-                      <li>
-                        Wrote custom Python scripts to automate the unsupported
-                        parts by AWS CloudFormation.
-                      </li>
-                      <li>
-                        Automated the process, reducing the time and effort
-                        required to create application environments, resulting
-                        in increased efficiency and reliability.
-                      </li>
-                      <li class="last">
-                        Used JavaScript, HTML, and CSS to provide input images
-                        to be uploaded to the server and display the output
-                        images served by the server. Implemented GPU
-                        acceleration to speed up the processing of large images.
-                        Ensured that the Flask app was optimized for high
-                        concurrency to handle multiple requests simultaneously.
-                      </li>
-                    </ul>
+        <div class="section SECTION_CNTC">
+          <div>
+            <div>
+              <div>
+                <div class="paragraph firstparagraph">
+                  <div>
+                    <div class="address">
+                      <span class="paddedline">
+                        <span class="zipsuffix">
+                          <span class="">Windsor</span><span>, </span
+                          ><span class="">ON</span>
+                          <span class="">N9B 2R7</span>
+                        </span>
+                      </span>
+                      <span class="paddedline">
+                        <span>226-975-4730</span>
+                        <span> | </span>
+                        <span class="email">amitrawat@smartfolio.me</span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-                <!--// .yui-u -->
               </div>
-              <!--// .yui-gf -->
-
-              <div class="yui-gf last">
-                <div class="yui-u first">
-                  <h2>Achievements</h2>
-                </div>
-                <div class="edu yui-u">
-                  <h2>Certificates</h2>
-                  <h3>
-                    Coursera Deep Learning Specialization by Andrew Ng of
-                    deeplearning.ai
-                  </h3>
-                  <ul>
-                    <li>Neural Networks and Deep Learning</li>
-                    <li>
-                      Improving Deep Neural Networks: Hyperparameter Tuning,
-                      Regularization and Optimization
-                    </li>
-                    <li>Structuring Machine Learning Projects</li>
-                    <li>Convolutional Neural Networks</li>
-                    <li>Sequence Models</li>
-                  </ul>
-                </div>
-                <div class="edu yui-u last">
-                  <h2>Volunteer Experience</h2>
-                  <h3>National Service Scheme</h3>
-                  <h4>2016-2018</h4>
-                  <p>
-                    Volunteer for various social service activities such as tree
-                    plantation drives, organising events and awarenes
-                    programmes.
-                  </p>
-                </div>
-              </div>
-              <!--// .yui-gf -->
             </div>
-            <!--// .yui-b -->
           </div>
-          <!--// yui-main -->
         </div>
-        <!--// bd -->
-
-        <div id="ft">
-          <p>
-            Amit Rawat &mdash;
-            <a href="mailto:amitrawat@smartfolio.me">amitrawat@smartfolio.me</a>
-            &mdash; (226)-975-4730
-          </p>
-        </div>
-        <!--// footer -->
       </div>
-      <!-- // inner -->
+      <div class="">
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Professional Summary</div>
+                </div>
+                <div>
+                  <div>
+                    <div class="paragraph smry firstparagraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <p>
+                            A detail-oriented problem solver seeking to provide
+                            innovative solutions and drive business growth.
+                            Ready to help team achieve company goals.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section multi-para has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Education</div>
+                </div>
+                <div>
+                  <div class="sortableInner">
+                    <div class="paragraph firstparagraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <span class="paddedline">
+                            <span class="degree">Master of Engineering</span
+                            ><span> </span>
+                            <span class="programline"
+                              >Electrical and Computer Engineering</span
+                            >
+                          </span>
+                          <span class="paddedline"
+                            ><span>University of Windsor</span>
+                          </span>
+                          <span class="paddedline grayItl">
+                            <span>Windsor, ON</span><span>, </span>
+                            <span>December 2022</span>
+                          </span>
+
+                          <span
+                            ><p>
+                              Data Mining - Mini-project on Missing Data
+                              Imputation Techniques
+                            </p>
+                            <p>
+                              Computer Arithmetic Algorithms - Fast Adder Design
+                              Techniques
+                            </p>
+                            <p>Computer Network Security</p></span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="paragraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <span class="paddedline">
+                            <span class="degree">Bachelor of Engineering</span
+                            ><span> </span>
+                            <span class="programline"
+                              >Computer Engineering</span
+                            >
+                          </span>
+                          <span class="paddedline"
+                            ><span>Gujarat Technological University</span></span
+                          >
+                          <span class="paddedline grayItl">
+                            <span>India</span><span>, </span>
+                            <span>August 2020</span>
+                          </span>
+
+                          <span
+                            ><p>
+                              Cloud Computing Platforms: Amazon Web Services
+                              (AWS) Infrastructure as Code (IaC) Tools: AWS
+                              CloudFormation Programming Languages: Python,
+                              Java, C++, JavaScript
+                            </p>
+                            <p>Deep Learning Framework: PyTorch</p>
+                            <p>Web Development: HTML, CSS, PHP, JavaScript</p>
+                            <p>Database Management Systems: MySQL</p>
+                            <p>Data Analysis: NumPy, Pandas</p>
+                            <p>Operating Systems: Linux, Windows</p>
+                            <p>
+                              Strong problem-solving skills and ability to work
+                              in a team environment
+                            </p>
+                            <p>
+                              Good communication and interpersonal skills Highly
+                              motivated and willing to learn new technologies
+                            </p></span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Skills</div>
+                </div>
+                <div>
+                  <div>
+                    <div class="paragraph firstparagraph">
+                      <div>
+                        <div class="singlecolumn maincolumn">
+                          <table class="twocol">
+                            <tbody>
+                              <tr>
+                                <td class="twocol_1">
+                                  <ul>
+                                    <li>Cloud Hosting</li>
+                                    <li>Apache/NGINX Web Server</li>
+                                    <li>Linux (Bash)</li>
+                                    <li>
+                                      Version Control Systems (Git), CI/CD
+                                    </li>
+                                    <li>
+                                      Server-side Scripting Languages: PHP,
+                                      JavaScript (Node.js), Python(Flask)
+                                    </li>
+                                    <li>DBMS (MySQL, PostgreSQL)</li>
+                                  </ul>
+                                </td>
+                                <td class="twocol_2">
+                                  <ul>
+                                    <li>NOSQL (MongoDB)</li>
+                                    <li>SOAP and Restful Web Services</li>
+                                    <li>Fluency in C, C++</li>
+                                    <li>Java, C#</li>
+                                    <li>
+                                      Deep Learning (PyTorch, TensorFlow, Keras)
+                                    </li>
+                                    <li>AWS</li>
+                                  </ul>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Projects</div>
+                </div>
+                <div>
+                  <div>
+                    <div class="paragraph firstparagraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <h4>
+                            <strong
+                              >Image Restoration using Deep Learning</strong
+                            >
+                          </h4>
+                          <ul>
+                            <li>
+                              Developed a deep learning project to produce
+                              high-quality images using neural networks to apply
+                              various image restoration techniques.
+                            </li>
+                            <li>
+                              Used PyTorch to train neural network models for
+                              various image restoration tasks.
+                            </li>
+                            <li>
+                              Used Pillow (PIL) Library to process images and
+                              NumPy, Pandas to handle image data.
+                            </li>
+                            <li>
+                              Created a Flask app wrapped in UWSGI connected to
+                              NGINX that used the trained models to process
+                              images and produce the result.
+                            </li>
+                          </ul>
+                          <h4>
+                            <strong>Full-Stack Food Ordering System</strong>
+                          </h4>
+                          <ul>
+                            <li>
+                              Developed a full-stack solution using PHP, MySQL,
+                              HTML, JavaScript, and CSS to improve the food
+                              ordering process in workplaces and universities.
+                            </li>
+                          </ul>
+                          <h4><strong>University Forum Website</strong></h4>
+                          <ul>
+                            <li>
+                              Developed a full-stack project using PHP, MySQL,
+                              HTML, JavaScript, and CSS to provide a forum for
+                              university students and staff.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Accomplishments</div>
+                </div>
+                <div>
+                  <div>
+                    <div class="paragraph firstparagraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <ul>
+                            <h4><strong>TCS Inframind II</strong></h4>
+                            <li>
+                              Participated in a hackathon and automated the
+                              creation of IAM, S3, VPC, Subnet, ELB, EC2
+                              instances,
+                            </li>
+                            <li>
+                              Scheduled Shutdown, backup, and API Gateway on AWS
+                              cloud platform using IaaC tool CloudFormation
+                              engine.
+                            </li>
+                            <li>
+                              Wrote custom Python scripts to automate the
+                              unsupported parts by AWS CloudFormation.
+                            </li>
+                            <li>
+                              Automated the process, reducing the time and
+                              effort required to create application
+                              environments, resulting in increased efficiency
+                              and reliability.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Certifications</div>
+                </div>
+                <div>
+                  <div>
+                    <div class="paragraph firstparagraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <p>
+                            <strong>Deep Learning Specialization</strong>
+                            <strong>by Andrew Ng</strong> at Coursera via
+                            deeplearning.ai
+                          </p>
+                          <ul>
+                            <li>Neural Networks, CNNs, Sequence Models</li>
+                            <li>Regularization and Optimization</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="right: -67px"></div>
+          <div>
+            <div class="section multi-para has-title">
+              <div>
+                <div class="heading">
+                  <div class="sectiontitle">Experience</div>
+                </div>
+                <div>
+                  <div>
+                    <div class="paragraph firstparagraph">
+                      <div>
+                        <div class="singlecolumn">
+                          <span class="paddedline">
+                            <span class="companyname"
+                              >National Service Scheme (NSS)</span
+                            >
+                          </span>
+                          <span class="paddedline grayItl">
+                            <span class="jobtitle">Volunteer</span
+                            ><span>|</span>
+                            <span class="joblocation">India</span>
+                            <span>| </span>
+
+                            <span class="jobdates" format="%B %Y"
+                              >August 2016</span
+                            ><span> - </span
+                            ><span class="jobdates" format="%B %Y"
+                              >August 2018</span
+                            >
+                          </span>
+                          <span class="jobline"
+                            ><ul>
+                              <li>Assisted with special events or programs.</li>
+                              <li>
+                                Maintained clean, neat and operational
+                                facilities to serve program needs.
+                              </li>
+                              <li>
+                                Used strong interpersonal communication skills
+                                to convey information to others.
+                              </li>
+                              <li>
+                                Supported engaging, fun and smooth-running
+                                events by helping with organization and
+                                planning.
+                              </li>
+                            </ul></span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--// doc -->
   </body>
-  <script src="./resume.js"></script>
 </html>
