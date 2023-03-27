@@ -195,14 +195,15 @@ a:hover {
   margin-top: 0;
 }
 .skn-cnt1 table.twocol td {
-  width: 50%;
+  width: 33%;
   border: none;
 }
-
-.skn-cnt1 td.twocol_2 {
-  border-left: 1px solid #fff;
+.skn-cnt1 table.twocol td.twocol_2 {
+  width: 33%;
 }
-
+.skn-cnt1 table.twocol td.twocol_3 {
+  width: 33%;
+}
 .skn-cnt1 .zipsuffix {
   display: inline;
 }
